@@ -1,3 +1,36 @@
-<style>
+body{
+    background-color: rgba(203, 241, 247, 0.507);
+}
+.diferenciarfontes{
+    font-family: sans-serif;
+}
+.botton{
+    border-radius: 3px;
+    text-align: center;
+    font-size: 15px;
+    padding: 3px;
+    text-decoration: none;
+    box-shadow: 50px;
+    border: 1px solid;
+    border-style: groove;
+    background-color: rgba(164, 243, 177, 0.349);
     
-</style>
+}
+.blogs{
+    text-decoration: none;
+    color: red;
+}
+.picture{
+    border-radius: 30%;
+}
+.alinhamento{
+    text-align:center;
+    
+    
+}
+.alinhamento h3{
+    margin:auto;
+    
+    
+
+    }
