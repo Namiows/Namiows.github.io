@@ -1,36 +1,78 @@
 body{
-    background-color: rgba(203, 241, 247, 0.507);
+    background-color:#f5f5f5;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px; 
+    margin-bottom: 35px;  
+    padding-bottom: 30px;
+    line-height: 2em;
 }
 .diferenciarfontes{
     font-family: sans-serif;
 }
 .botton{
-    border-radius: 3px;
+    border-radius: 5px;
     text-align: center;
     font-size: 15px;
-    padding: 3px;
+    padding: 4px;
     text-decoration: none;
-    box-shadow: 50px;
-    border: 1px solid;
-    border-style: groove;
-    background-color: rgba(164, 243, 177, 0.349);
-    
+    border: 2px solid;
+    border-style: ridge;
+    background-color: lavender;
+    margin-left: 900px;
 }
 .blogs{
     text-decoration: none;
     color: red;
 }
 .picture{
-    border-radius: 30%;
+    float: left;
+    position: relative;
+    border-radius: 35%;
+    margin-left: 150px;
+    background-color: lavender;
+    padding: 4px;
+    top: 200px;
+    left: 50px;
 }
-.alinhamento{
-    text-align:center;
-    
-    
+.textoaoladodafoto{
+    float: right;
+    position: relative;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    top: 125px;
+    right: 150px;
 }
-.alinhamento h3{
-    margin:auto;
-    
-    
-
-    }
+.centralizarnome{
+    padding-left: 450px;
+    padding-bottom: 50px;
+    position: relative;
+    top: 300px;
+    left: 100px;
+} 
+.sairforadofloat{
+    clear: both;
+}    
+.alinharlocal{
+    position: relative;
+    margin-left: 100px;
+    left: 100px;
+    top: 200px;
+}
+.bloglist1 li{
+    list-style-type: square;
+}
+.alinhamento2{
+    margin-left: 200px;
+    position: relative;
+    top: 100px;
+}
+.blogslist{
+    float: right;
+}
+.header{
+    background-image: url("https://scontent.fcgh8-1.fna.fbcdn.net/v/t1.0-9/13438919_1049267178499197_6961498691143853615_n.jpg?_nc_cat=104&_nc_sid=e3f864&_nc_eui2=AeHayx5_DEDvw_Uv-cMbFBDlJIDhRSEPA8ckgOFFIQ8Dx_BO23btXXAlP0MfllbpS-T8ia9yqN1yfEfHhOC31_RC&_nc_oc=AQlUs1FEOPVkFErNAylG7TZbmg81Xecl1KqCDVqbdIlKVFbyU3W61rvbpLDrZnvFm38&_nc_ht=scontent.fcgh8-1.fna&oh=e93ac67f78f088781bad79c9f73310d5&oe=5F2CAA20");
+    background-size: cover;
+    background-position: 20% 35%;
+    padding: 150px 5px;
+}
