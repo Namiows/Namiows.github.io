@@ -1,0 +1,39 @@
+header{
+    background-image: url("https://ak0.picdn.net/shutterstock/videos/17655370/thumb/1.jpg");
+    background-size: cover;
+    background-position: 100% 35%;
+    padding: 100px 50px ;
+    border: 2px solid black;
+    bottom: 500px;
+}
+.botton{
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    left: 25px;
+    margin: 4px;
+
+}
+
+body{
+    padding: 50px;
+    position: relative;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    line-height: 1.6;
+    color: black;
+    margin: 0;
+}
+h2, h1{
+    text-align: justify;
+    color:green;
+}
+img{
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
