@@ -1,0 +1,53 @@
+header{
+    background-image: url("https://ak0.picdn.net/shutterstock/videos/17655370/thumb/1.jpg");
+    background-size: cover;
+    background-position: 100% 40%;
+    padding: 100px 50px ;
+    border: 1px gray solid;
+    height: auto;
+    width: auto;
+    position: relative;
+    
+
+}
+.botton{
+    text-decoration: none;
+    text-align: center;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px 150px;
+    left: 25px;
+    margin: 4px;
+    position: relative;
+    top: 190px;
+
+}
+
+body{
+    padding: 50px;
+    position: relative;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+h2, h1{
+    text-align: justify;
+    color:green;
+}
+img{
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    display: block;
+}
+.alinhamentodoartigo{
+    padding-top: 100px;
+    position: relative;
+    left: 10px;
+    text-align: center;
+}
+#subtitle{
+    text-align: center;
+}
