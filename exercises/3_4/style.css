@@ -1,19 +1,25 @@
 header{
     background-image: url("https://ak0.picdn.net/shutterstock/videos/17655370/thumb/1.jpg");
     background-size: cover;
-    background-position: 100% 35%;
+    background-position: 100% 40%;
     padding: 100px 50px ;
-    border: 2px solid black;
-    bottom: 500px;
+    border: 1px gray solid;
+    height: auto;
+    width: auto;
+    position: relative;
+    
+
 }
 .botton{
     text-decoration: none;
     text-align: center;
-    border: 2px solid;
+    background-color: gray;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 10px 150px;
     left: 25px;
     margin: 4px;
+    position: relative;
+    top: 190px;
 
 }
 
@@ -22,10 +28,8 @@ body{
     position: relative;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 100;
     line-height: 1.6;
     color: black;
-    margin: 0;
 }
 h2, h1{
     text-align: justify;
@@ -36,4 +40,14 @@ img{
     max-height:150px;
     width: auto;
     height: auto;
+    display: block;
+}
+.alinhamentodoartigo{
+    padding-top: 100px;
+    position: relative;
+    left: 10px;
+    text-align: center;
+}
+#subtitle{
+    text-align: center;
 }
