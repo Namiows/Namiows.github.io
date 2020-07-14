@@ -1,4 +1,9 @@
+let num1 = 1, num2 = 23, num3 = 19
 
+let par = false;
 
+if ((num1 % 2 == 0||num2 % 2 == 0||num3 % 2 == 0)) {
+    let par = true;
+}
 
-let num1 % 2 == 0 || let num2 % 2 == 0 ||let num3 % 2 == 0  ? "true" ; "false"
+console.log(par)
