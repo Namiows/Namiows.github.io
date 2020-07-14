@@ -5,6 +5,12 @@ let valorImposto = custoSemImposto*0.2;
 let custoReal = custoSemImposto + valorImposto; 
 let lucro = (valorVenda - custoReal)*quantVendas;
 
-console.log(lucro);
+if (lucro > 0) {
+    console.log(lucro);
+}
+else {
+    console.log("O lucro não pode ser negativo!")
+}
+ 
 
 
