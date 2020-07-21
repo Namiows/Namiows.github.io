@@ -1,0 +1,45 @@
+<!--!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            algumas API`s solicitam que inclua o js aqui.
+            utilizado para iniciar antes do HTML
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
+
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            //inicia ao final do carregamento da página. Não atrapalha a renderização.
+            //+PERFORMANCE
+        </script>
+    </body>
+</html>
+
+<html>
+    <head>
+    </head>
+    <body>
+        ao final do body <script src="... .js"></script>
+        recomendado também pois não é interessante incluir tudo no mesmo html
+    </body>
+</html>
+
+-> Para acessar a DIV com aspecto de ID.
+<body>
+    <div id="...">VALOR QUALQUER</div>
+ 
+    <script>
+        console.log(
+            documento.GetElementByID("aquivaiaIDdaDIV").innerHTML
+        )
+        INNETHTML significa mostrar somente o valor da id.
+    </script>
+</body>    
+
+DETALHE: QUando for mexer com js sempre verifique o CONSOLE da pagina.
