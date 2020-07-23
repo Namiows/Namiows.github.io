@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      div {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // criando a tag h1
+        let h1 = document.createElement("h1");
+      // direcionando a tag h1 como filho na body 
+        document.body.appendChild(h1);
+      // adicionando texto no h1  
+        h1.innerHTML = "Exercício 5.2 - JavaScript DOM"
+
+        //criar tag DIV1
+        let div1 = document.createElement("div");
+        // adicionando uma classe na DIV1
+        div1.className = "main-content";
+        // direcionando a tag div na tag body
+        document.body.appendChild(div1);
+        
+        //criando tag DIV2
+        let div2 = document.createElement("div");
+        //adicionando uma classe na DIV2
+        div2.className = "center-content";
+        //direcionando a tag div2 na tag div1
+        div1.appendChild(div2);
+        
+        //criando tag P
+        const tagP = document.createElement("p");
+        //adicionando um valor para esse p(frase)
+        tagP.innerHTML = "adicionei o texto na <p>";
+        //inserindo o p na div anterior
+        div2.appendChild(tagP);
+
+         //criando div da esquerda 
+        const divLeft = document.createElement('div');
+        //incluindo uma class na div da esquerda
+        divLeft.className = 'left-content';
+        //direcionando a div da esquerda na div1
+        div1.appendChild(divLeft);
+
+        //criando div da direita 
+        const divRight = document.createElement('div');
+        //incluindo uma class na div da direita
+        divRight.className = 'left-content';
+        //direcionando a div da direita na div1
+        div1.appendChild(divRight);
+
+        //criando elemento tipo imagem  
+        const createImg = document.createElement('img');
+        //incluindo uma class na IMG
+        createImg.className = 'small-image';
+        //adicionando uma imagem ao elemento IMG
+        createImg.src = 'https://picsum.photos/100';
+        //direcionando a imagem para a div da esquerda
+        divLeft.appendChild(createImg);
+
+        //criando um elemento lista  
+        const elementUl = document.createElement('ul');
+        //direcionando o elemento lista para a div da direita
+        divRight.appendChild(elementUl);
+        //inserir array com numeros por extenso
+        const array = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez']
+          //inserir os numeros do array
+      for (let number in array) {
+        const elementLi = document.createElement('li');
+        elementLi.innerHTML = array[number];
+        elementUl.appendChild(elementLi);
+      }
+
+      //Criar os 3 h3 todas sendo filhas do div criado anteriormente
+      for (let index = 1; index <= 3; index++) {
+        const elementH3 = document.createElement('h3');
+        elementH3.innerHTML = 'texto' + index;
+        elementDivMain.appendChild(elementH3);
+      }
+
+
+    </script>
+  </body>
+</html>
