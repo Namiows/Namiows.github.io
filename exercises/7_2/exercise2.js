@@ -4,6 +4,7 @@ const lesson1 = {
     professor: 'Maria Clara',
     turno: 'manhã',
   };
+
   
   const lesson2 = {
     materia: 'História',
@@ -18,8 +19,37 @@ const lesson1 = {
     turno: 'noite',
   };
 
-  const includingTurnInLesson2 = () => {
-    const turno = "tarde"
-    lesson2.turno = turno
+  //inserir uma nova entrada em um objeto.
+
+  const includingTurnInLesson2 = (obj, key, value) => {
+    obj[key] = value
   };
-  console.log(includingTurnInLesson2());
+  includingTurnInLesson2(lesson2,turno,'tarde');
+
+
+
+  //mostrar somente as keys de um objeto
+  const lesson1 = {
+    materia: 'Matemática',
+    numeroEstudantes: 20,
+    professor: 'Maria Clara',
+    turno: 'manhã',
+  };
+
+  const listingKeys = (obj) => Object.keys(obj);
+  
+  console.log(listingKeys(lesson1));
+  
+  //Mostrar o tamanho de um objeto
+
+  const lesson1 = {
+    materia: 'Matemática',
+    numeroEstudantes: 20,
+    professor: 'Maria Clara',
+    turno: 'manhã',
+  };
+
+  const showLength = (obj) => {
+    Object.keys(obj).length;
+    console.log(showLength(lesson1))
+  }
